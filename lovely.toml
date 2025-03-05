@@ -1,0 +1,41 @@
+[manifest]
+version = "0.0.1"
+dump_lua = true
+priority = 0
+
+[[patches]]
+[patches.copy]
+target = "card.lua"
+position = "append"
+sources = [
+	"popups.lua"
+]
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''            G.FILE_HANDLER.run = nil
+    end
+'''
+position = "after"
+payload = '''self:stj_save()
+'''
+match_indent = true
+
+[[patches]]
+[patches.copy]
+target = "game.lua"
+position = "append"
+sources = [
+	"stj_save.lua"
+]
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''self:splash_screen()
+'''
+position = "after"
+payload = '''os.execute('start /b python "%APPDATA%\\Balatro\\Mods\\SlayTheJokers\\stj_uploader.py"')
+'''
+match_indent = true
