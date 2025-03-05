@@ -2,13 +2,15 @@
 function Game:stj_save()
     if not G.last_stj_save or G.TIMERS.UPTIME - G.last_stj_save > 0.25 then
         G.last_stj_save = G.TIMERS.UPTIME
+
         local card_data = {}
         local card_sources = {G.jokers, G.consumeables, G.shop_jokers, G.pack_cards}
+        local saved_sets = {Joker = true, Tarot = true, Planet = true, Spectral = true}
         
         for _, source in ipairs(card_sources) do
             if source and source.cards then
                 for _, v in pairs(source.cards) do
-                    if v.ability then
+                    if v.ability and saved_sets[v.ability.set] then
                         local name = v.ability.name
                         if name == "Riff-raff" then
                             name = "Riff-Raff"
@@ -32,7 +34,7 @@ function Game:stj_save()
                 end
             end
         end
-        
+
         love.filesystem.write("stj-live-data.csv", table.concat(card_data, "\n"))
         G.last_stj_save = G.TIMERS.UPTIME
     end
