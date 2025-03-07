@@ -67,13 +67,13 @@ Next, open your Windows Command Prompt (type cmd in search) and run these comman
 
 - Unzip the downloaded file.
 
-- Move the unzipped folder into the Mods folder located at `%appdata%\Balatro\Mods` .
+- Move the unzipped folder into the Mods folder located at `%appdata%\Balatro\Mods`
 
 *Why?* This is the folder that Lovely injects mods from.
 
 ## Step 7: Add Your Credential File
 
-- Launch Balatro again. The black window will show a message similar to "no credentials."
+- Launch Balatro again. The black window will show a message similar to "no credentials".
 
 - Close the game.
 
