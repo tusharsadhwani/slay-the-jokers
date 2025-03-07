@@ -13,6 +13,8 @@ This simple guide will help you set up the mod that shows card positions on your
 
 - This mod has not been tested alongside other Balatro mods. For now, using it together with other mods is not recommended.
 
+- The mod only uploads game-related data (such as card positions) to the Slay the Jokers server — no personal or private information is collected. You can verify this by checking out `stj_save.lua` and `stj_uploader.py`.
+
 ## Step 1: Back Up Your Save Folder
 
 Before installing any mod, it's always smart to back up your game data.
@@ -88,3 +90,7 @@ Next, open your Windows Command Prompt (type cmd in search) and run these comman
 Done!
 
 You should now see the cards' positions on your stream overlay when you enable the extension. Enjoy streaming!
+
+---
+
+If you ever want to remove the mod, just remove the Lovely DLL from the Balatro installation folder and delete the mod folder from `%appdata%\Balatro\Mods`. This will fully uninstall the mod.
