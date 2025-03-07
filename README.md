@@ -69,7 +69,7 @@ Next, open your Windows Command Prompt (type cmd in search) and run these comman
 
 - Unzip the downloaded file.
 
-- Move the unzipped folder into the Mods folder located at `%appdata%\Balatro\Mods`
+- Move the unzipped folder into the Mods folder located at `%appdata%\Balatro\Mods`, and rename it to `SlayTheJokers`
 
 *Why?* This is the folder that Lovely injects mods from.
 
@@ -79,7 +79,7 @@ Next, open your Windows Command Prompt (type cmd in search) and run these comman
 
 - Close the game.
 
-- Place the `stj-credentials.json` file (which I'll send you via Discord or similar) into the mod's directory: `%appdata%\Balatro\Mods\<name of folder you created>`
+- Place the `stj-credentials.json` file (which I'll send you via Discord or similar) into the mod's directory: `%appdata%\Balatro\Mods\SlayTheJokers`
 
 *Why?* The credential file provides the necessary authentication for the mod to upload data to the Slay the Jokers server.
 
