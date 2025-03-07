@@ -70,7 +70,7 @@ Next, open your Windows Command Prompt (type cmd in search) and run these comman
 
 - Close the game.
 
-- Place the credential file (which I'll send you via Discord or similar) into the mod's directory: `%appdata%\Balatro\Mods\<name of folder you created>`
+- Place the `stj-credentials.json` file (which I'll send you via Discord or similar) into the mod's directory: `%appdata%\Balatro\Mods\<name of folder you created>`
 
 *Why?* The credential file verifies your account to connect to the Slay the Jokers server.
 
