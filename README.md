@@ -35,7 +35,7 @@ Before installing any mod, it's always smart to back up your game data.
 
 *Why?* "Lovely" is a widely used, trusted modding tool that safely injects mods into the game.
 
-Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over that. You'll have to trust the Lovely creators, I guess.
+Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over that. You'll have to trust the Lovely developers, I guess.
 
 ## Step 3: Check Lovely Injector Installation
 
@@ -82,6 +82,8 @@ Next, open your Windows Command Prompt (type cmd in search) and run these comman
 - Place the `stj-credentials.json` file (which I'll send you via Discord or similar) into the mod's directory: `%appdata%\Balatro\Mods\SlayTheJokers`
 
 *Why?* The credential file provides the necessary authentication for the mod to upload data to the Slay the Jokers server.
+
+Note: If your you get an error similar to "Python was not found", make sure python is in the PATH. If it is, I'm still trying to understand what's wrong (something to do with Windows). I will make a branch soon with a workaround that runs the uploading script manually.
 
 ## Step 8: Verify Everything Works!
 
