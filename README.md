@@ -25,9 +25,11 @@ Before installing any mod, it's always smart to back up your game data.
 
 ## Step 2: Install Lovely Injector
 
+- Open the Balatro installation folder (not the same as the appdata folder!). You can open it through Steam: Right click Balatro -> Manage -> Browse local files. You should see `Balatro.exe` there, along with several other files.
+
 - Download "Lovely" from https://www.github.com/ethangreen-dev/lovely-injector/releases/tag/v0.7.1 (click the link that looks like "lovely-x86_64-pc-windows-msvc.zip")
 
-- Unzip it and move the contained .dll file into your Balatro game directory on Steam (not the same as the appdata directory! You can open it through Steam: Right click Balatro -> Manage -> Browse local files. You should see `Balatro.exe` there, along with several other files)
+- Unzip it and move the contained .dll file into the Balatro installation folder.
 
 *Why?* "Lovely" is a widely used, trusted modding tool that safely injects mods into the game.
 
