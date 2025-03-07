@@ -15,7 +15,7 @@ This simple guide will help you set up the mod that shows card positions on your
 
 Before installing any mod, it's always smart to back up your game data.
 
-- Go to `%appdata%\Balatro` (you can type this into your Windows search bar and press Enter).
+- Go to `%appdata%` (you can type this into your Windows search bar and press Enter). You should see a directory called `Balatro` there.
 
 - Make a copy of the entire Balatro directory in two different safe locations.
 
