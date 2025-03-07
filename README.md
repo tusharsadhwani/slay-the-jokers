@@ -35,6 +35,8 @@ Before installing any mod, it's always smart to back up your game data.
 
 *Why?* "Lovely" is a widely used, trusted modding tool that safely injects mods into the game.
 
+Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over that. You'll have to trust the Lovely creators, I guess.
+
 ## Step 3: Check Lovely Injector Installation
 
 - Open Balatro through Steam.
