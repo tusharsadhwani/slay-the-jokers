@@ -11,6 +11,8 @@ This simple guide will help you set up the mod that shows card positions on your
 
 - The mod currently supports only Windows systems.
 
+- This mod has not been tested alongside other Balatro mods. For now, using it together with other mods is not recommended.
+
 ## Step 1: Back Up Your Save Folder
 
 Before installing any mod, it's always smart to back up your game data.
