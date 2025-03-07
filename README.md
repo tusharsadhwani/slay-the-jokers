@@ -5,6 +5,7 @@ This simple guide will help you set up the mod that shows card positions on your
 ## Before We Start
 
 - This mod is currently in beta, so some features might not work perfectly. If you encounter any issues, please let me know!
+    - *More formal disclaimer for meanies: this project is a hobby project, provided as-is, with no guarantees of stability, correctness, or suitability for any purpose. You're welcome to use it — but I take no responsibility if something goes wrong.*
 
 - Currently, in order to use this mod, you need permissions to upload to the Slay the Jokers server. Contact me before installing in order to receive credential file.
 
@@ -24,7 +25,7 @@ Before installing any mod, it's always smart to back up your game data.
 
 - Download "Lovely" from https://www.github.com/ethangreen-dev/lovely-injector/releases/tag/v0.7.1 (click the link that looks like "lovely-x86_64-pc-windows-msvc.zip")
 
-- Unzip it and move the contained .dll file into your Balatro game directory on Steam (not the same as the appdata directory! You can open it through Steam: Right click Balatro -> Manage -> Browse local files. You should see `Balatro.exe` there, along several other files)
+- Unzip it and move the contained .dll file into your Balatro game directory on Steam (not the same as the appdata directory! You can open it through Steam: Right click Balatro -> Manage -> Browse local files. You should see `Balatro.exe` there, along with several other files)
 
 *Why?* "Lovely" is a widely used, trusted modding tool that safely injects mods into the game.
 
