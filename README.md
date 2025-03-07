@@ -31,7 +31,7 @@ Before installing any mod, it's always smart to back up your game data.
 
 - Download "Lovely" from https://www.github.com/ethangreen-dev/lovely-injector/releases/tag/v0.7.1 (click the link that looks like "lovely-x86_64-pc-windows-msvc.zip")
 
-- Unzip it and move the contained .dll file into the Balatro installation folder.
+- Unzip it and move the contained `version.dll` file into the Balatro installation folder.
 
 *Why?* "Lovely" is a widely used, trusted modding tool that safely injects mods into the game.
 
@@ -93,4 +93,4 @@ You should now see the cards' positions on your stream overlay when you enable t
 
 ---
 
-If you ever want to remove the mod, just remove the Lovely DLL from the Balatro installation folder and delete the mod folder from `%appdata%\Balatro\Mods`. This will fully uninstall the mod.
+If you ever want to remove the mod, just remove the Lovely DLL (`version.dll`) from the Balatro installation folder and delete the mod folder from `%appdata%\Balatro\Mods`. This will fully uninstall the mod.
