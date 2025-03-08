@@ -36,6 +36,6 @@ target = "game.lua"
 pattern = '''self:splash_screen()
 '''
 position = "after"
-payload = '''os.execute('start /b python "%APPDATA%\\Balatro\\Mods\\SlayTheJokers\\stj_uploader.py"')
+payload = '''os.execute('start /b powershell "%APPDATA%\\Balatro\\Mods\\SlayTheJokers\\stj.ps1"')
 '''
 match_indent = true
