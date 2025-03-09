@@ -59,6 +59,8 @@ Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over th
 
 - Right click the `install_uv.ps1` file in the `SlayTheJokers` folder, and click "Run with Powershell". This will install [uv](https://docs.astral.sh/uv/guides/install-python/) which we use to run Python code for the mod.
 
+- You should now see the `uv.exe` and `uvx.exe` files in the `SlayTheJokers` folder.
+
 *Why?* Python is necessary to run the script that uploads your game data to the overlay server. Python is a programming language commonly used for scripting and automation tasks, such as uploading data to servers. 
 
 ## Step 6: Add Your Credential File
