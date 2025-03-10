@@ -45,7 +45,6 @@ require 'love.filesystem'
 require "engine/object"
 require "engine/string_packer"
 
---vars needed for sound manager thread
 CHANNEL = love.thread.getChannel("save_stj_data")
 
  while true do
