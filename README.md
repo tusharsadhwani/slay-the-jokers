@@ -57,15 +57,15 @@ Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over th
 
 ## Step 5: Install `uv` (Python Package Manager)
 
-- Open the `SlayTheJokers` folder and double-click `install_uv.bat`. This will install [`uv`](https://docs.astral.sh/uv/), which is needed to run Python for uploading the game's data.
-- A black command window will open, and you'll see colorful loading bars gradually filling up as uv installs.
-- Once it's done, you should see `uv.exe` and `uvx.exe` appear in the SlayTheJokers folder.
+- Open the `SlayTheJokers` folder and double-click `install_uv.bat`. This will install [`uv`](https://docs.astral.sh/uv/), which is required to run Python for uploading the game's data.
+- A black command window will open, and you'll see colorful loading bars gradually filling up as `uv` installs.
+- Once the installation is complete, the window will close automatically, and you should see `uv.exe` and `uvx.exe` appear in the SlayTheJokers folder.
 
 *Why?* `uv` is a lightweight Python package manager that allows the mod to run scripts for uploading the game's data. Python is a programming language commonly used for tasks like automation and sending data to servers.
 
 ## Step 6: Add Your Credential File
 
-- Launch Balatro again. The black window will show a message similar to "no credentials".
+- Launch Balatro again. The black window (that opened alongside with the game) will show a message similar to `Credential file not found`.
 
 - Close the game.
 
