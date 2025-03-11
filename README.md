@@ -5,15 +5,15 @@ This simple guide will help you set up the mod that shows card positions on your
 ## Before We Start
 
 - This mod is currently in beta, so some features might not work perfectly. If you encounter any issues, please let me know!
-    - *More formal disclaimer for meanies: this project is a hobby project, provided as-is, with no guarantees of stability, correctness, or suitability for any purpose. You're welcome to use it — but I take no responsibility if something goes wrong.*
+    - *More formal disclaimer for meanies: this project is a hobby project, provided as-is, with no guarantees of stability, correctness, or suitability for any purpose. You're welcome to use it - but I take no responsibility if something goes wrong.*
 
-- Currently, in order to use this mod, you need permissions to upload to the Slay the Jokers server. Contact me before installing in order to receive a credential file.
+- Currently, in order to use this mod, you need permissions to upload to the Slay the Jokers server. **Contact me before installing** in order to receive a credential file.
 
 - The mod currently supports only Windows systems.
 
 - This mod has not been tested alongside other Balatro mods. For now, using it together with other mods is not recommended.
 
-- The mod only uploads game-related data (such as card positions) to the Slay the Jokers server — no personal or private information is collected. You can verify this by checking out `stj_save.lua` and `stj_uploader.py`.
+- The mod **only uploads game-related data** (such as card positions) to the Slay the Jokers server - no personal or private information is collected. You can verify this by checking out `stj_save.lua` and `stj_uploader.py`.
 
 ## Step 1: Back Up Your Save Folder
 
@@ -55,13 +55,13 @@ Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over th
 
 *Why?* This is the folder that Lovely injects mods from.
 
-## Step 5: Install Python via `uv`
+## Step 5: Install `uv` (Python Package Manager)
 
-- Double click the `install_uv.bat` file in the `SlayTheJokers` folder. This will install [uv](https://docs.astral.sh/uv/guides/install-python/) which we use to run Python code for the mod.
+- Open the `SlayTheJokers` folder and double-click `install_uv.bat`. This will install [`uv`](https://docs.astral.sh/uv/), which is needed to run Python for uploading the game's data.
+- A black command window will open, and you'll see colorful loading bars gradually filling up as uv installs.
+- Once it's done, you should see `uv.exe` and `uvx.exe` appear in the SlayTheJokers folder.
 
-- You should now see the `uv.exe` and `uvx.exe` files in the `SlayTheJokers` folder.
-
-*Why?* Python is necessary to run the script that uploads your game data to the overlay server. Python is a programming language commonly used for scripting and automation tasks, such as uploading data to servers. 
+*Why?* `uv` is a lightweight Python package manager that allows the mod to run scripts for uploading the game's data. Python is a programming language commonly used for tasks like automation and sending data to servers.
 
 ## Step 6: Add Your Credential File
 
@@ -79,7 +79,7 @@ Note: If your you get an error similar to "Python was not found", make sure pyth
 
 - Restart Balatro.
 
-- The black command window should now periodically print messages saying it is uploading data.
+- After the game fully loads, the black command window should now periodically print messages saying it is uploading data.
 
 Done!
 
