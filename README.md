@@ -65,7 +65,7 @@ Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over th
 
 ## Step 6: Add Your Credential File
 
-- Launch Balatro again. The black window (that opened alongside with the game) will show a message similar to `Credential file not found`.
+- Launch Balatro again. The black window (that opened alongside the game) will show a message similar to `Credential file not found`.
 
 - Close the game.
 
