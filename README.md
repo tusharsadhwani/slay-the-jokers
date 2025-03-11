@@ -57,11 +57,11 @@ Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over th
 
 ## Step 5: Install `uv` (Python Package Manager)
 
-- Open the `SlayTheJokers` folder and double-click `install_uv.bat`. This will install [`uv`](https://docs.astral.sh/uv/), which is required to run Python for uploading the game's data.
+- Open the `SlayTheJokers` folder and double-click `install_uv.bat`. This will install `uv`, which is required to run Python for uploading the game's data.
 - A black command window will open, and you'll see colorful loading bars gradually filling up as `uv` installs.
 - Once the installation is complete, the window will close automatically, and you should see `uv.exe` and `uvx.exe` appear in the SlayTheJokers folder.
 
-*Why?* `uv` is a lightweight Python package manager that allows the mod to run scripts for uploading the game's data. Python is a programming language commonly used for tasks like automation and sending data to servers.
+*Why?* [`uv`](https://docs.astral.sh/uv/) is a lightweight Python package manager that allows the mod to run scripts for uploading the game's data. Python is a programming language commonly used for tasks like automation and sending data to servers.
 
 ## Step 6: Add Your Credential File
 
@@ -72,8 +72,6 @@ Note: Lovely triggers some Antiviruses. Unfortunately, I have no control over th
 - Place the `stj-credentials.json` file (which I'll send you via Discord or similar) into the mod's directory: `%appdata%\Balatro\Mods\SlayTheJokers`
 
 *Why?* The credential file provides the necessary authentication for the mod to upload data to the Slay the Jokers server.
-
-Note: If your you get an error similar to "Python was not found", make sure python is in the PATH. If it is, I'm still trying to understand what's wrong (something to do with Windows). I will make a branch soon with a workaround that runs the uploading script manually.
 
 ## Step 7: Verify Everything Works!
 
