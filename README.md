@@ -1,4 +1,4 @@
-# Guide to Install "Slay the Jokers" Stream Overlay Mod
+# "Slay the Jokers" Overlay Mod - Installation Guide
 
 This simple guide will help you set up the mod that shows card positions on your stream. Each step is explained along with its purpose, so you can understand exactly what is being done and why.
 
