@@ -2,6 +2,8 @@
 
 This simple guide will help you set up the mod that shows card positions on your stream. Each step is explained along with its purpose, so you can understand exactly what is being done and why.
 
+If you need help, have suggestions, or need a credential file, contact me on `itsedalo@gmail.com`.
+
 ## Before We Start
 
 - This mod is currently in beta, so some features might not work perfectly. If you encounter any issues, please let me know!
